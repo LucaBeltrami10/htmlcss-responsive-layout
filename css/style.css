@@ -98,7 +98,7 @@ section
  /* MAIN */
     /*? Section Purpose */
     #purpose{
-        margin: 3rem 0;
+        margin: 3rem 0 5.5rem 0;
     }
 
     #purpose .card{
@@ -141,6 +141,21 @@ section
     }
 
     /*? Section Planning */
+
+    #planning .inside-container{
+        margin: 1.5rem 0;
+        border-radius: 50px;
+    }
+
+    #planning .inside-container.last{
+        background-color: white;
+        padding: 2rem;
+    }
+
+    #planning img{
+        width: 100%;
+    }
+
     /*? Section Partners*/
     /*? Section  Benefit*/
     /*? Section  About-us*/
