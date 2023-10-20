@@ -7,10 +7,27 @@
     box-sizing: border-box;
 }
 
+/* !da eliminare */
 header{
-    
+    /* !qui sotto da eliminare */
+    min-height: 100px;
+    background-color: #b5ddff;
 }
 
+section{
+    /* !qui sotto da eliminare */
+    min-height: 100px;
+    background-color: #b5ddff;
+}
+
+/* !da eliminare */
+footer{
+    /* !qui sotto da eliminare */
+    min-height: 100px;
+    background-color: #b5ddff;
+}
+
+section
 
  /***********************
  UTILITIES
@@ -35,12 +52,14 @@ header{
     margin: 0 auto;
     padding: 0 1rem;
     /* !qui sotto da eliminare */
-    min-height: 100px;
-    background-color: #b5ddff;
+    min-height: 80px;
+    background-color: lightcoral;
 }
 
  /* COLOR */
-
+.bc-purple{
+    background-color: #9792e4;
+}
 
  /* TEXT-STYLE */
 
