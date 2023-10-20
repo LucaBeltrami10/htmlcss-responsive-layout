@@ -7,13 +7,37 @@
     box-sizing: border-box;
 }
 
+header{
+    
+}
 
 
  /***********************
  UTILITIES
  ************************/
 /* LAYOUT */
+.flex-row{
+    display: flex;
+}
 
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-j-spacebetween{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+    /* !qui sotto da eliminare */
+    min-height: 100px;
+    background-color: #b5ddff;
+}
 
  /* COLOR */
 
