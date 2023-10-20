@@ -50,7 +50,7 @@ section
     padding: 0 1rem;
     /* !qui sotto da eliminare */
     min-height: 80px;
-    background-color: #b5ddff;
+    background-color: lightpink;
 }
 
  /* COLOR */
@@ -87,6 +87,23 @@ section
 
  /* MAIN */
     /*? Section Purpose */
+    #purpose{
+        padding: 
+    }
+
+    #purpose .container{
+        padding: ;
+    }
+
+    #purpose .card{
+        width: 100%;
+        text-align: center;
+    }
+
+
+    #purpose img{
+        height: 300px;
+    }
     /*? Section Strategic-Planning */
     /*? Section Partners*/
     /*? Section  Benefit*/
