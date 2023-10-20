@@ -88,22 +88,20 @@ section
  /* MAIN */
     /*? Section Purpose */
     #purpose{
-        padding: 
-    }
-
-    #purpose .container{
-        padding: ;
+        margin: 1.5rem 0;
     }
 
     #purpose .card{
         width: 100%;
         text-align: center;
+        background-color: #b5ddff;
+        margin: 1.5rem 0;
     }
-
 
     #purpose img{
         height: 300px;
     }
+
     /*? Section Strategic-Planning */
     /*? Section Partners*/
     /*? Section  Benefit*/
