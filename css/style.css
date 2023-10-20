@@ -9,9 +9,7 @@
 
 /* !da eliminare */
 header{
-    /* !qui sotto da eliminare */
-    min-height: 100px;
-    background-color: #b5ddff;
+    background-color: #0084fd;
 }
 
 section{
@@ -48,17 +46,21 @@ section
 }
 
 .container{
-    width: 100%;
+    width: 310px;
     margin: 0 auto;
     padding: 0 1rem;
     /* !qui sotto da eliminare */
     min-height: 80px;
-    background-color: lightcoral;
+    background-color: #b5ddff;
 }
 
  /* COLOR */
 .bc-purple{
     background-color: #9792e4;
+}
+
+.cl-white{
+    color: white;
 }
 
  /* TEXT-STYLE */
@@ -69,7 +71,18 @@ section
  SECTION 
  ************************/
  /* HEADER */
+    header .container{
+        padding: 1rem 0 1.2rem 0;
+    }
 
+    header img{
+        height: 40px;
+    }
+
+    header i{
+        font-size: 1.5rem;
+        padding-top: .5rem;
+    }
 
  /* MAIN */
 
@@ -82,3 +95,4 @@ section
  /***********************
  RESPONSIVENESS
  ************************/
+
