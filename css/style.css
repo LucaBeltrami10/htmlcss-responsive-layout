@@ -87,6 +87,10 @@ section
     text-align: center;
 }
 
+.text-uppercase{
+    text-transform: uppercase;
+}
+
 
  /***********************
  SECTION 
@@ -202,6 +206,59 @@ section
     }
 
     /*? Section Partners*/
+    #partners{
+
+    }
+
+    #partners h1{
+        padding: 1.5rem 0;
+        color: #9792e4;
+        font-size: 2.2rem;
+    } 
+
+    #partners .card{
+        width: 100%;
+        background-color: #9792e4;
+        margin: 1.5rem 0;
+        padding: 2rem 2rem 0 2rem;
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    #partners .card.white-card{
+        background-color: white;
+        padding: 2rem 0;
+    }
+
+    #partners .card.white-card p:first-child,
+    #partners .card.white-card p:last-child{
+        font-size: 1.1rem;
+    }
+
+    #partners .card .round-image{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background-color: black;
+        display: inline-block;
+        
+        background-size: cover;
+        background-position: center;
+    }
+
+    #partners .card .round-image.nat{
+        background-image: url(../img/testimonial1.jpg);
+    }
+
+    #partners .card .round-image.celia{
+        background-image: url(../img/testimonial2.jpg);
+    }
+
+    #partners .card .round-image.bob{
+        background-image: url(../img/testimonial3.jpg);
+    }
+
+
     /*? Section  Benefit*/
     /*? Section  About-us*/
     /*? Section  Get-Starded*/
