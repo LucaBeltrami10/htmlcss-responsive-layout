@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
 /* !da eliminare */
 header{
     background-color: #0084fd;
@@ -47,10 +51,16 @@ section
 .container{
     width: 310px;
     margin: 0 auto;
-    padding: 0 1rem;
     /* !qui sotto da eliminare */
     min-height: 80px;
     background-color: lightpink;
+}
+
+.button{
+    padding: 0.7rem 2.5rem;
+    border-radius: 20px;
+    border: rgba(0, 0, 0, 0);
+    color: white;
 }
 
  /* COLOR */
@@ -88,14 +98,35 @@ section
  /* MAIN */
     /*? Section Purpose */
     #purpose{
-        margin: 1.5rem 0;
+        margin: 3rem 0;
     }
 
     #purpose .card{
         width: 100%;
-        text-align: center;
         background-color: #b5ddff;
         margin: 1.5rem 0;
+        padding: 2rem 2rem 0 2rem;
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    #purpose .card.big-card{
+        text-align: start;
+    }
+
+    #purpose h1{
+        font-size: 1.5rem;
+    }
+
+    #purpose p{
+        padding: 1.5rem 0;
+        line-height: 1.7rem;
+    }
+
+    #purpose button{
+        background-color: #0084fd;
+        margin-bottom: 2rem;
+
     }
 
     #purpose img{
