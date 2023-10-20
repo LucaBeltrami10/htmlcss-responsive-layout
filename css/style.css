@@ -57,7 +57,7 @@ section
 }
 
 .button{
-    padding: 0.7rem 2.5rem;
+    padding: 0.7rem 3.5rem;
     border-radius: 20px;
     border: rgba(0, 0, 0, 0);
     color: white;
@@ -116,6 +116,7 @@ section
 
     #purpose h1{
         font-size: 1.5rem;
+        color: #0084fd;
     }
 
     #purpose p{
@@ -125,8 +126,14 @@ section
 
     #purpose button{
         background-color: #0084fd;
-        margin-bottom: 2rem;
+        margin:0.5rem 0 2rem 0;
 
+    }
+
+    #purpose .card > i{
+        font-size: 5rem;
+        padding-bottom: 1.5rem;
+        color: #0084fd;
     }
 
     #purpose img{
