@@ -147,6 +147,15 @@ section
         border-radius: 50px;
     }
 
+    #planning .inside-container.first{
+        padding: 4rem 0 0 0;
+    }
+
+    #planning .inside-container.first h1{
+        padding: 5rem 0 3rem 0;
+        font-size: 2rem;
+    }
+
     #planning .inside-container.last{
         background-color: white;
         padding: 2rem;
