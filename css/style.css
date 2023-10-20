@@ -63,7 +63,9 @@ section
 }
 
  /* TEXT-STYLE */
-
+.text-cenetred{
+    text-align: center;
+}
 
 
  /***********************
@@ -84,8 +86,12 @@ section
     }
 
  /* MAIN */
-
-
+    /*? Section Purpose */
+    /*? Section Strategic-Planning */
+    /*? Section Partners*/
+    /*? Section  Benefit*/
+    /*? Section  About-us*/
+    /*? Section  Get-Starded*/
  /* FOOTER */
 
 
