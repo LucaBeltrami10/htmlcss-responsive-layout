@@ -1,14 +1,24 @@
 /************************
  GENERAL STYLE 
  ************************/
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
 
  /***********************
  UTILITIES
  ************************/
+/* LAYOUT */
 
+
+ /* COLOR */
+
+
+ /* TEXT-STYLE */
 
 
 
