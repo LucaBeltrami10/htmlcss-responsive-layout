@@ -94,6 +94,10 @@ section
     background-color: #9792e4;
 }
 
+.cl-purple{
+    color: #9792e4;
+}
+
 .cl-white{
     color: white;
 }
@@ -433,7 +437,24 @@ section
 
 
  /* FOOTER */
-    
+    footer{
+        background-color: #333333;
+    }   
+
+    footer .container{
+        color: white;
+        padding: 2.5rem 0;
+        text-align: center;
+    }
+
+    footer .container p{
+        font-size: 0.85rem;
+        line-height: 1rem;
+    }
+
+    footer .container p:first-child{
+        padding-bottom: 4.5rem;
+    }
 
 
 
