@@ -304,11 +304,11 @@ section
     #benefit .benefit-card .card-number{
         font-size: 3rem;
         font-weight: 700;
-        padding-top: 2rem;
+        padding-top: 1rem;
         color: #9792e4;
     }
     #benefit .benefit-card h2{
-        padding: 1.5rem 0;
+        padding: 2.5rem 0 1.5rem 0;
         color: #9792e4;
     }
     #benefit .benefit-card button{
