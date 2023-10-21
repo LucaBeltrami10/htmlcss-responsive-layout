@@ -91,6 +91,10 @@ section
     text-transform: uppercase;
 }
 
+.text-strong{
+    font-weight: 700;
+}
+
 
  /***********************
  SECTION 
@@ -207,7 +211,7 @@ section
 
     /*? Section Partners*/
     #partners{
-
+        margin-bottom: 7rem;
     }
 
     #partners h1{
@@ -222,7 +226,7 @@ section
         background-color: #9792e4;
         margin: 1.5rem 0;
         padding: 2rem 2rem 0 2rem;
-        border-radius: 20px;
+        border-radius: 50px;
         text-align: center;
     }
 
@@ -246,10 +250,17 @@ section
         line-height: 2rem;
     }
 
+    #partners .card.purple-card p:last-child{
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 1.5rem 0;
+    }
+
     #partners .card .round-image{
         height: 200px;
         width: 200px;
         border-radius: 50%;
+        margin-bottom: 0.5rem;
         background-color: black;
         display: inline-block;
         
