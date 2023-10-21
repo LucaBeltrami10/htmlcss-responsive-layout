@@ -301,8 +301,9 @@ section
 
     #benefit .benefit-card{
         background-color: white;
-        padding: 2rem;
+        padding: 2rem 2rem 0 2rem;
         border-radius: 20px;
+        margin-bottom: 2rem;
     }
 
     #benefit .benefit-card .card-number{
@@ -317,7 +318,7 @@ section
     }
 
     #benefit .benefit-card button{
-        margin: 1.5rem 0;
+        margin: 1.5rem 0 2rem 0;
         background-color:#9792e4;
         font-weight: 700;
         padding: 0.7rem 3rem;
