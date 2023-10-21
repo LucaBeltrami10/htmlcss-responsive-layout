@@ -374,7 +374,14 @@ section
     }
 
     #about-us .cit-container button{
+        background-color: #9792e4;
+        padding: 0.5rem 2rem;
+    }
 
+    #about-us .cit-container button i{
+        font-size: 0.9rem;
+        color: white;
+        
     }
 
     /*? Section  Get-Starded*/
