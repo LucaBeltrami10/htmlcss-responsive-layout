@@ -296,7 +296,8 @@ section
     }
 
     #benefit .benefit-card{
-
+        background-color: white;
+        border-radius: 20px;
     }
 
     #benefit .benefit-card .card-number{
