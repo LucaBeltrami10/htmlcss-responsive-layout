@@ -419,10 +419,16 @@ section
     #get-started .container > button{
         background-color: white;
         color: #9792e4;
+        font-size: 1.1rem;
         padding: 1.4rem 5.5rem;
         font-weight: 700;
         margin: 1.5rem 0;
         border-radius: 50px;
+    }
+
+    #get-started .container > p:last-child{
+        line-height: 1rem;
+        font-size: 0.9rem;
     }
 
 
