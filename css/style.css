@@ -332,7 +332,7 @@ section
 
     /*? Section  About-us*/
     #about-us{
-        padding: 3rem 0;
+        padding: 3rem 0 5.5rem 0;
     }
 
     #about-us .text-container{
@@ -389,7 +389,42 @@ section
     }
 
     /*? Section  Get-Starded*/
-#
+    #get-started{
+        background-color: #9792e4;
+        color: white;
+        text-align: center;
+        padding: 3.5rem 0;
+    }
+
+    #get-started .container > *{
+        padding: 0.5rem 0;
+    }
+
+    #get-started .container > p:first-child{
+        color: lightgray;
+        font-size: 1.2rem;
+    }
+
+    #get-started .container > h1{
+        font-size: 2rem;
+    }
+
+    #get-started .container > p.free{
+        color: #fdc15f;
+        font-size: 3.5rem;
+        padding: 2rem 0 3rem 0;
+        font-weight: 700;
+    }
+
+    #get-started .container > button{
+        background-color: white;
+        color: #9792e4;
+        padding: 1.4rem 5.5rem;
+        font-weight: 700;
+        margin: 1.5rem 0;
+        border-radius: 50px;
+    }
+
 
  /* FOOTER */
 
