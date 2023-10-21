@@ -20,6 +20,10 @@ p{
     line-height: 1.7rem;
 }
 
+ul{
+    list-style-type: none;
+}
+
 section{
     /* !qui sotto da eliminare */
     min-height: 100px;
@@ -282,6 +286,33 @@ section
 
 
     /*? Section  Benefit*/
+    #benefit{
+
+    }
+
+    #benefit h1{
+        font-size: 2rem;
+        padding: 3rem 0;
+    }
+
+    #benefit .benefit-card{
+
+    }
+
+    #benefit .benefit-card .card-number{
+        font-size: 4rem;
+        padding-top: 2rem;
+        color: #9792e4;
+    }
+    #benefit .benefit-card h2{
+        padding: 1.5rem;
+        color: #9792e4;
+    }
+    #benefit .benefit-card button{
+        padding: 1.5rem;
+        background-color:#9792e4;
+    }
+
     /*? Section  About-us*/
     /*? Section  Get-Starded*/
  /* FOOTER */
