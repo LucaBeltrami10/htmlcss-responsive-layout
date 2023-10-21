@@ -331,12 +331,8 @@ section
         padding: 3rem 0;
     }
 
-    #about-us .about-us-container{
-        padding: 2rem;
-    }
-
     #about-us .text-container{
-        padding-bottom: 2rem;
+        padding: 2rem 0;
     }
 
     #about-us .text-container h1{
@@ -345,7 +341,20 @@ section
         color: #9792e4;
     }
 
+    #about-us .text-container p{
+        line-height: 2.5rem;
+        font-size: 1.1rem;
+        padding-top: 2rem;
+    }
+
+    #about-us .text-container p:last-child{
+        padding: 3rem 0 1rem 0;
+    }
+
+
     #about-us .cit-container .round-image{
+        height: 180px;
+        width: 180px;
         background-image: url(../img/about.jpg);
     }
 
@@ -362,7 +371,7 @@ section
     }
 
     #about-us .cit-container button{
-        
+
     }
 
     /*? Section  Get-Starded*/
