@@ -297,20 +297,22 @@ section
 
     #benefit .benefit-card{
         background-color: white;
+        padding: 2rem;
         border-radius: 20px;
     }
 
     #benefit .benefit-card .card-number{
-        font-size: 4rem;
+        font-size: 3rem;
+        font-weight: 700;
         padding-top: 2rem;
         color: #9792e4;
     }
     #benefit .benefit-card h2{
-        padding: 1.5rem;
+        padding: 1.5rem 0;
         color: #9792e4;
     }
     #benefit .benefit-card button{
-        padding: 1.5rem;
+        margin: 1.5rem;
         background-color:#9792e4;
     }
 
