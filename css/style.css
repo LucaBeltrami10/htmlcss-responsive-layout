@@ -211,9 +211,10 @@ section
     }
 
     #partners h1{
-        padding: 1.5rem 0;
+        padding: 1.5rem 0 1.9rem 0;
         color: #9792e4;
         font-size: 2.2rem;
+        line-height: 3rem;
     } 
 
     #partners .card{
@@ -232,7 +233,8 @@ section
 
     #partners .card.white-card p:first-child,
     #partners .card.white-card p:last-child{
-        font-size: 1.1rem;
+        font-size: 1.3rem;
+        line-height: 2rem;
     }
 
     #partners .card .round-image{
