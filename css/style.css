@@ -366,8 +366,11 @@ section
     }
 
     #about-us .cit-container p{
-        font-size: 2rem;
+        font-size: 1.8rem;
+        font-weight: 700;
+        line-height: 2.5rem;
         color: #9792e4;
+        padding: 1rem 0;
     }
 
     #about-us .cit-container button{
