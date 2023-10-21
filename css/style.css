@@ -327,6 +327,44 @@ section
     }
 
     /*? Section  About-us*/
+    #about-us{
+        padding: 3rem 0;
+    }
+
+    #about-us .about-us-container{
+        padding: 2rem;
+    }
+
+    #about-us .text-container{
+        padding-bottom: 2rem;
+    }
+
+    #about-us .text-container h1{
+        font-size: 3rem;
+        font-weight: 700;
+        color: #9792e4;
+    }
+
+    #about-us .cit-container .round-image{
+        background-image: url(../img/about.jpg);
+    }
+
+    #about-us .cit-container i{
+        font-size: 3rem;
+        color: #9792e4;
+        position: relative;
+        right: 0;
+    }
+
+    #about-us .cit-container p{
+        font-size: 2rem;
+        color: #9792e4;
+    }
+
+    #about-us .cit-container button{
+        
+    }
+
     /*? Section  Get-Starded*/
  /* FOOTER */
 
