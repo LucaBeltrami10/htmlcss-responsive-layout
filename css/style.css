@@ -77,6 +77,18 @@ section
     color: white;
 }
 
+.round-image{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+    background-color: black;
+    display: inline-block;
+    
+    background-size: cover;
+    background-position: center;
+}
+
  /* COLOR */
 .bc-purple{
     background-color: #9792e4;
@@ -262,18 +274,6 @@ section
         font-weight: 700;
         text-transform: uppercase;
         padding: 1.5rem 0;
-    }
-
-    #partners .card .round-image{
-        height: 200px;
-        width: 200px;
-        border-radius: 50%;
-        margin-bottom: 0.5rem;
-        background-color: black;
-        display: inline-block;
-        
-        background-size: cover;
-        background-position: center;
     }
 
     #partners .card .round-image.nat{
