@@ -291,13 +291,13 @@ section
 
     /*? Section  Benefit*/
     #benefit{
-
+        padding: 2rem;
     }
 
     #benefit h1{
         text-align: center;
         font-size: 2.3rem;
-        padding: 4rem 0;
+        padding: 2rem 0 4rem 0;
         color: white;
     }
 
