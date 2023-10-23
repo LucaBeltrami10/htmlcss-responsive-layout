@@ -163,6 +163,8 @@ section
     #purpose button{
         background-color: #0084fd;
         margin:0.5rem 0 2rem 0;
+        letter-spacing: 2px;
+        font-weight: 700;
 
     }
 
@@ -278,6 +280,7 @@ section
         text-transform: uppercase;
         padding: 1.5rem 0 2rem 0;
         font-size: 1.3rem;
+        letter-spacing: 2px;
     }
 
     #partners .card .round-image.nat{
@@ -328,6 +331,7 @@ section
         background-color:#9792e4;
         font-weight: 700;
         padding: 0.7rem 3rem;
+        letter-spacing: 2px;
     }
 
     /*? Section  About-us*/
@@ -424,6 +428,7 @@ section
         font-weight: 700;
         margin: 1.5rem 0;
         border-radius: 50px;
+        letter-spacing: 2px;
     }
 
     #get-started .container > p:last-child{
