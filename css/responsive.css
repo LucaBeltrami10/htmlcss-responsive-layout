@@ -38,12 +38,17 @@
     
     /*? Section Planning */
     #planning .inside-container.first{
+        margin: 1.5rem 0 1rem 0;
     }
 
     #planning img{
         width: 93%;
         margin: 0 auto;
         display: block;
+    }
+
+    #planning .inside-container.first h1{
+        font-size: 5rem;
     }
 
     #planning .inside-container.last img{
@@ -55,9 +60,16 @@
         font-size: 1.1rem;
     }
 
-    #planning .inside-container.first h1{
-        font-size: 5rem;
+    /*? Section Partners*/
+
+    #partners h1 {
+        font-size: 2.7rem;
     }
+
+    #partners .card.purple-card{
+        display: flex;
+    }
+    
 }
 
 
