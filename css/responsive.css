@@ -68,8 +68,22 @@
 
     #partners .card.purple-card{
         display: flex;
+        padding: 2rem;
     }
     
+    #partners .card.purple-card .cit-container{
+        width: 70%;
+        text-align: start;
+        padding: 0 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+
+    #partners .card.purple-card .round-image{
+        width: 200px;
+    }
+
 }
 
 
