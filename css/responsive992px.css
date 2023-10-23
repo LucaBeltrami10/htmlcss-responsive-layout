@@ -1,0 +1,33 @@
+/***********************
+ RESPONSIVENESS
+ ************************/
+
+@media screen and (min-width: 992px){
+    .container{
+        width: 1140px;
+    }
+ 
+    /* HEADER */
+
+    header .burger-menu{
+        display: none;
+    }
+
+    header nav{
+        display: flex;
+        align-items: center;
+    }
+
+    /*? Section Purpose */
+
+    #purpose .card.big-card{
+        display: flex;
+    }
+
+    #purpose .card.big-card .big-card-text{
+        width: 60%;
+    }
+
+    #purpose .card.big-card
+    
+}

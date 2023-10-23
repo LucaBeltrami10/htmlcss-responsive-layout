@@ -131,6 +131,25 @@ section
         padding-top: .5rem;
     }
 
+    header nav{
+        display: none;
+    }
+
+    header nav ul{
+        display: flex;
+    }
+
+    header nav ul li{
+        color: white;
+        padding: 0 2rem;
+    }
+
+    header nav button.button{
+        background-color: white;
+        color: black;
+        padding: 0.5rem 1rem;
+    }
+
  /* MAIN */
     /*? Section Purpose */
     #purpose{

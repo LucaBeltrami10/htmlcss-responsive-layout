@@ -6,7 +6,8 @@
     <title>htmlcss-responsive-layout</title>
     <!-- link css -->
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/responsive768.css">
+    <link rel="stylesheet" href="./css/responsive992px.css">
     <!-- link font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <!-- link google font -->
@@ -19,8 +20,16 @@
         <div class="container flex-j-spacebetween">
             <img src="./img/logo.png" alt="logo">
             <div>
-                <i class="fa-solid fa-bars burger-menu cl-white"></i>
-                <nav></nav>
+                <div class="burger-menu"><i class="fa-solid fa-bars burger-menu cl-white"></i></div>
+                <nav>
+                    <ul>
+                        <li>Planning</li>
+                        <li>Testimonials</li>
+                        <li>Features</li>
+                        <li>About Us</li>
+                    </ul>
+                    <Button class="button nav-button">Get Started</Button>
+                </nav>
             </div>
             
         </div>
@@ -30,7 +39,7 @@
         <section id="purpose">
             <div class="container">
                 <div class="card big-card">
-                    <div>
+                    <div class="big-card-text">
                         <h1>Get a demo application</h1>
                         <p>Lorem ipsum dolor si amet consectetur adipisicing elit. Ratione nobis, architecto ad dolore quod, facere totam quas recusandae blanditis.</p>
                         <button class="button"> <i class="fa-brands fa-apple"></i> App Store</button>   
