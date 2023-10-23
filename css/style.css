@@ -269,6 +269,10 @@ section
         line-height: 2rem;
     }
 
+    #partners .card.purple-card p > i{
+        font-size: 2rem;
+    }
+
     #partners .card.purple-card p:last-child{
         font-weight: 700;
         text-transform: uppercase;
@@ -454,4 +458,12 @@ section
  RESPONSIVENESS
  ************************/
 
-@media
+@media screen and (min-width: 768px){
+
+}
+
+
+
+@media screen and (min-width: 992px){
+
+}
