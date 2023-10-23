@@ -19,6 +19,7 @@
     #purpose .card{
         width: calc((100% / 3) - 1rem);
         margin-top: 0;
+        text-align: center;
     }
 
     #purpose .card.big-card{
@@ -35,7 +36,28 @@
         width: 50%;
     }
     
+    /*? Section Planning */
+    #planning .inside-container.first{
+    }
 
+    #planning img{
+        width: 93%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    #planning .inside-container.last img{
+        padding-top: 0;
+        width: 90%;
+    }
+
+    #planning .inside-container.last p{
+        font-size: 1.1rem;
+    }
+
+    #planning .inside-container.first h1{
+        font-size: 5rem;
+    }
 }
 
 
