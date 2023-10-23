@@ -25,9 +25,104 @@
     }
 
     #purpose .card.big-card .big-card-text{
-        width: 60%;
+        width: 59%;
     }
 
-    #purpose .card.big-card
+    #purpose p{
+        font-size: 1.2rem;
+        line-height: 2rem;
+
+    }
+
+    /* #purpose img{
+        width: 38%;
+    } */
+
+    /*? Section Planning */
+    #planning {
+        padding: 6rem 0;
+    }
+
+    #planning .container{
+        display: flex;
+        justify-content: center;
+    }
     
+    #planning .inside-container.first{
+        padding: 0 5rem;
+        width: 50%;
+    }
+
+    #planning .inside-container.first img{
+        width: 100%;
+        margin: 0;
+        padding-top: 4rem;
+        display: block;
+    }
+
+    #planning .inside-container.first h1{
+        font-size: 2rem;
+        padding-top: 8rem;
+    }
+
+
+    #planning .inside-container.last{
+        width: 35%;
+        align-self: flex-end;
+    }
+
+    /*? Section Partners*/
+    #partners h1 {
+        font-size: 3rem;
+    }
+
+    #partners .card.purple-card{
+        padding: 2rem 2rem 2rem 1rem;
+    }
+
+    #partners .card.white-card p:last-child{
+        padding-top: .5rem;
+    }
+
+    #partners .card.purple-card p:last-child{
+        padding:1.5rem 0 2rem 4rem;
+    }
+
+    #partners .card.purple-card p{
+        font-size: 1.2rem;
+        padding: 0 0 0 4rem;
+    }
+
+    /*? Section  Benefit*/
+
+    #benefit .benefit-card{
+        width: calc((100% / 3) - 1.5rem);
+    }
+
+    #about-us .about-us-container.text-container{
+        width: 75%;
+    }
+
+    #about-us .about-us-container.cit-container{
+        width: 25%;
+    }
+
+    #about-us .text-container p{
+        font-size: 1.3rem;
+        line-height: 3rem;
+    }
+
+    /*? Section  Get-Starded*/
+
+    #get-started .container > p:nth-last-child(3) {
+        padding: 0 20rem;
+    }
+
+    /* footer */
+
+    footer .container p:first-child {
+        padding: 0 10rem 4.5rem 10rem;
+      }
+
+
 }

@@ -177,6 +177,8 @@ section
     #purpose p{
         padding: 1.5rem 0;
         line-height: 1.7rem;
+        font-weight: 700;
+        color: #626262;
     }
 
     #purpose button{
@@ -275,7 +277,11 @@ section
         padding: 2rem 0;
     }
 
-    #partners .card.white-card p:first-child,
+    #partners .card.white-card p:first-child{
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    
     #partners .card.white-card p:last-child{
         font-size: 1.3rem;
         line-height: 2rem;
