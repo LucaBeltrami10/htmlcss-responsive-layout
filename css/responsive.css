@@ -1,0 +1,21 @@
+/***********************
+ RESPONSIVENESS
+ ************************/
+
+ @media screen and (min-width: 768px){
+    .container{
+        width: 745px;
+        margin: 0 auto;
+    }
+
+    /* MAIN */
+    /*? Section Purpose */
+    
+
+}
+
+
+
+@media screen and (min-width: 992px){
+
+}
