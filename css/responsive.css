@@ -131,7 +131,40 @@
     height: 240px;
     width: 240px;
     }
+
+    /*? Section  Get-Starded*/
+
+    #get-started .container > h1{
+        font-size: 3rem;
+    }
     
+    #get-started .container > p.free{
+    font-size: 6rem;
+    padding: 4rem 0 4.5rem 0;
+    }
+
+    #get-started .container > p:nth-last-child(3){
+        padding: 0 9rem;
+    font-size: 1.1rem;
+    }
+
+    #get-started .container > button{
+        padding: 1.6rem 5.5rem;
+        margin: 2rem 0;   
+    }
+
+    /* footer */
+
+    footer .container{
+        padding: 2.5rem 10rem;
+    }
+
+    footer .container p{
+        font-size: 1rem;
+    }
+
+
+
 }
 
 
