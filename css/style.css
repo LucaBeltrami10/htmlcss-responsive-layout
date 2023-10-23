@@ -11,7 +11,6 @@ body{
     font-family: 'PT Sans', sans-serif;
 }
 
-/* !da eliminare */
 header{
     background-color: #0084fd;
 }
@@ -24,14 +23,8 @@ ul{
     list-style-type: none;
 }
 
-section{
-    /* !qui sotto da eliminare */
-    min-height: 100px;
-}
 
-/* !da eliminare */
 footer{
-    /* !qui sotto da eliminare */
     min-height: 100px;
     background-color: #b5ddff;
 }
@@ -65,9 +58,6 @@ section
 .container{
     width: 310px;
     margin: 0 auto;
-    /* !qui sotto da eliminare */
-    min-height: 80px;
-    background-color: lightpink;
 }
 
 .button{
@@ -252,7 +242,7 @@ section
     #partners .card{
         width: 100%;
         background-color: #9792e4;
-        margin: 1.5rem 0;
+        margin: 2rem 0;
         padding: 2rem 2rem 0 2rem;
         border-radius: 50px;
         text-align: center;
@@ -281,7 +271,8 @@ section
     #partners .card.purple-card p:last-child{
         font-weight: 700;
         text-transform: uppercase;
-        padding: 1.5rem 0;
+        padding: 1.5rem 0 2rem 0;
+        font-size: 1.3rem;
     }
 
     #partners .card .round-image.nat{
@@ -378,7 +369,7 @@ section
         font-weight: 700;
         line-height: 2.5rem;
         color: #9792e4;
-        padding: 1rem 0;
+        padding: 1rem 0 1.5rem 0;
     }
 
     #about-us .cit-container button{
