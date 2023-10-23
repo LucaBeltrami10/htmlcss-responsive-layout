@@ -103,6 +103,35 @@
         font-size: 4.5rem;
         padding-top: 2rem;
     }
+
+    /*? Section  About-us*/
+    #about-us{
+        padding: 4.5rem 0 5.5rem 0;
+    }
+
+    #about-us .container{
+        display: flex;
+    }
+
+    #about-us .about-us-container.text-container{
+        width: 65%;
+        padding: 0 4rem 0 2rem;
+    }
+
+    #about-us .text-container h1{
+        font-size: 4.5rem;
+    }
+
+    #about-us .about-us-container.cit-container{
+        width: 35%;
+        padding-right: 2rem;
+    }
+
+    #about-us .about-us-container.cit-container .round-image{
+    height: 240px;
+    width: 240px;
+    }
+    
 }
 
 
