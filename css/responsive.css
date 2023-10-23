@@ -84,6 +84,25 @@
         width: 200px;
     }
 
+    /*? Section  Benefit*/
+    #benefit h1{
+        font-size: 2.8rem;
+    }
+
+    #benefit .benefit-cards-container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    #benefit .benefit-card{
+        width: calc(50% - 1rem);
+    }
+
+    #benefit .benefit-card .card-number{
+        font-size: 4.5rem;
+        padding-top: 2rem;
+    }
 }
 
 
